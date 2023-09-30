@@ -8,7 +8,7 @@ function showTime() {
     let hour = date.getHours();
     let min = date.getMinutes();
     let sec = date.getSeconds();
-    let session = "AM";
+    let session = "";
    
     if (hour === 0) {
       hour = 12;
